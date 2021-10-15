@@ -1,0 +1,34 @@
+.prenavbar{
+    background-color: rgb(29,28,28);
+    display:grid;
+    grid-template-columns:5fr 2fr;
+    color:white;
+}
+
+
+.prenavbar > div{
+    padding:0vmax 4vmax;
+    display:flex;
+    align-items:center;
+    
+}
+
+.prenavbar>div>span{
+    color:rgb(100,100,100,0.644);
+    font-size:0.8vmax;
+    font-weight:100;
+
+}
+
+.prenavbar>div>a{
+    color:rgb(100,100,100);
+    font-size:0.9vmax;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:100;
+    margin:1vmax;
+    text-decoration:none;
+}
+
+.prenavbar>div >a:hover{
+    color:red;
+}

@@ -1,0 +1,52 @@
+.navbar{
+    z-index:1000;
+    background-color:white;
+    padding:1vmax;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: row;
+    border-bottom:1px soild rgba(43,47,43,0.17);
+}
+
+.logo{
+    background-color:red;
+    width:50px;
+    overflow:hidden;
+    position:relative;
+
+}
+
+#logoImage{
+    transition: all 0.2s;
+    transform: translateX(-5.8px);
+
+}
+
+#logoImage:hover{
+    transform: translateX(0);
+}
+
+.navlinks{
+    color:rgb(50,50,30);
+    text-decoration: none;
+    margin:1vmax 1.7vmax;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:500;
+    font-size:1.1vmax;
+}
+
+.navlinks:hover{
+    text-decoration:none;
+    color: orange;
+}
+
+.searchBox{
+    border:none !important;
+    border-radius:1px solid rgba(120,120,120,0.75);
+    width:35vmax;
+    font-size:1.1vmax;
+    color:rgb(65,65,63);
+       outline:none;
+       font-weight:200;
+}
